@@ -82,7 +82,7 @@ msgstr "הפעילות שוחזרה!"
 #: apps/badges/forms.py:52
 #, fuzzy
 msgid "You cannot give a badge to yourself."
-msgstr "אינך יכול לתת badge לעצמך."
+msgstr "אינך יכול לתת עיטור לעצמך."
 
 #: apps/badges/forms.py:57 apps/projects/forms.py:120 apps/schools/forms.py:96
 msgid "That user account was deleted."
@@ -3308,7 +3308,7 @@ msgstr ""
 #: templates/pages/jobs_page.html:27 templates/pages/jobs_page.html.py:32
 #: templates/pages/jobs_page.html:42 templates/pages/jobs_page.html.py:52
 msgid "GO!"
-msgstr "IR!"
+msgstr ""
 
 #: templates/pages/jobs_page.html:37
 msgid "Intern"
@@ -3324,7 +3324,7 @@ msgstr ""
 
 #: templates/pages/jobs_page.html:50
 msgid "Graphic Designer"
-msgstr ""
+msgstr "מעצב גרפי"
 
 #: templates/pages/jobs_page.html:58
 msgid "Why work at p2pu?"
@@ -4099,58 +4099,53 @@ msgstr "עקוב"
 msgid "Participate"
 msgstr "השתתף"
 
-# #############################################################################
-# #############################################################################
-# ## Bookmark                                                                ##
-# #############################################################################
-# #############################################################################
 #: templates/projects/sidebar.html:62
 msgid "Time it should take to complete:"
-msgstr "Tiempo que debería tomar en completar:"
+msgstr ""
 
 #: templates/projects/sidebar.html:62
 msgid "min"
-msgstr "m"
+msgstr ""
 
 #: templates/projects/sidebar.html:71 templates/projects/sidebar.html.py:74
 msgid "Start Challenge"
-msgstr "Iniciar Reto"
+msgstr "התחל אתגר"
 
 #: templates/projects/sidebar.html:78 templates/projects/sidebar.html.py:86
 msgid "View Tasks"
-msgstr "Ver Tareas"
+msgstr "צפייה במשימות"
 
 #: templates/projects/sidebar.html:80
 msgid "View Discussions"
-msgstr "Ver Discussiones"
+msgstr "צפייה בדיונים"
 
 #: templates/projects/sidebar.html:84
 msgid "Request a Mentor"
-msgstr "Solicitar un Mentor"
+msgstr "בקשת חונך"
 
 #: templates/projects/sidebar.html:88
 msgid "Discuss Challenge"
-msgstr "Discutir sobre el Reto"
+msgstr "דיון על האתגר"
 
 #: templates/projects/sidebar.html:93
 msgid "Leave Challenge"
-msgstr "Dejar Reto"
+msgstr "עזיבת האתגר"
 
 #: templates/projects/sidebar.html:105
 msgid "View more tagged with "
-msgstr "Vea otros etiquetados como "
+msgstr ""
 
 #: templates/projects/sidebar.html:114
 msgid "View Full Description"
-msgstr "Ver Descripción Completa"
+msgstr "צפייה בתיאור מלא"
 
 #: templates/projects/sidebar.html:145
 msgid "Under Development"
-msgstr "En Desarrollo"
+msgstr "בפיתוח"
 
 #: templates/projects/sidebar.html:148
 msgid "Not Listed"
-msgstr "No Listado"
+msgstr "לא רשום"
 
 #: templates/projects/sidebar.html:150
 msgid "DATE_FORMAT"
@@ -4158,11 +4153,11 @@ msgstr "j N Y"
 
 #: templates/projects/sidebar.html:152
 msgid "Runs"
-msgstr "Activo del"
+msgstr "פעיל"
 
 #: templates/projects/sidebar.html:158 templates/projects/sidebar.html:164
 msgid "Based on"
-msgstr "Basado en"
+msgstr "מבוסס על"
 
 #: templates/projects/sidebar.html:181 templates/users/_user_card.html:25
 msgid "Updates"
@@ -4170,87 +4165,87 @@ msgstr "עדכונים"
 
 #: templates/projects/sidebar.html:198
 msgid "Pending Applicants"
-msgstr "Aspirantes Pendientes:"
+msgstr ""
 
 #: templates/projects/sidebar.html:217
 msgid "Edit Participants"
-msgstr "Editar Participantes"
+msgstr "עריכת משתתפים"
 
 #: templates/projects/sidebar.html:220
 msgid "Contact Organizer(s)"
-msgstr "Contactar Organizador(es)"
+msgstr "יצירת קשר עם מארגן/ים"
 
 #: templates/projects/sidebar.html:223
 msgid "Contact Organizer"
-msgstr "Contactar Organizador"
+msgstr "יצירת קשר עם מארגן"
 
 #: templates/projects/sidebar.html:264
 msgid "External Links"
-msgstr "Enlaces Externos"
+msgstr "קישורים חיצוניים"
 
 #: templates/projects/sidebar.html:282
 msgid "No external links have been added."
-msgstr "Ningún enlace externo ha sido añadido."
+msgstr "לא נוספו קישורים חיצוניים."
 
 #: templates/projects/sidebar.html:287
 msgid "Edit Links"
-msgstr "Editar Enlaces"
+msgstr "עריכת קישורים"
 
 #: templates/projects/sidebar.html:298
 msgid "Help your peers"
-msgstr "Ayude a sus colegas"
+msgstr "עזרו לעמיתיכם"
 
 #: templates/projects/sidebar.html:299
 msgid ""
 "Would you be interested in becoming a Mentor? Your peers are going to run "
 "into road blocks and they could really use your help."
 msgstr ""
-"¿Estaría interesado en convertirse en un mentor? Sus colegas van a encontrar "
-"dificultades y realmente podría necesitar su ayuda."
+"האם הנכם מעוניינים להיהפך לחונכים? העמיתים שלכם הולכים להיתקל בקשיים ומאוד "
+"צריכים את העזרה שלכם."
 
 #: templates/projects/sidebar.html:300
 msgid "Become a Mentor"
-msgstr "Conviértase en un Mentor"
+msgstr "הפוך לחונך"
 
 #: templates/projects/sidebar.html:325
 #, python-format
 msgid "%(counter)s peer needs your review!"
 msgid_plural "%(counter)s peers need your review!"
-msgstr[0] "¡%(counter)s respuesta de un colega necesita revisión!"
-msgstr[1] "¡%(counter)s respuestas de colegas necesitan revisión!"
+msgstr[0] "עמית אחד צריך את הסקירה שלכם!"
+msgstr[1] "%(counter)s עמיתים צריכים את הסקירה שלכם!"
 
 #: templates/projects/sidebar.html:325
 #: templates/users/_openid_providers.html:26
 msgid "Go"
-msgstr "Ir"
+msgstr "לך"
 
 #: templates/replies/_comment_threads.html:43
 #: templates/replies/_comment_threads.html:101
 #: templates/replies/comment_page.html:39
 #: templates/replies/comment_page.html:59
 msgid " said:"
-msgstr " dijo:"
+msgstr " אמר:"
 
 #: templates/replies/_comment_threads.html:54
 #: templates/replies/_comment_threads.html:116
 #: templates/replies/comment_page.html:45
 #: templates/replies/comment_page.html:65
 msgid "on "
-msgstr "en "
+msgstr "בתאריך "
 
 #: templates/replies/_comment_threads.html:105
 msgid "In Reply To:"
-msgstr "En Respuesta A:"
+msgstr "בתגובה ל:"
 
 #: templates/replies/_comment_threads.html:117
 #: templates/replies/comment_page.html:46
 #: templates/replies/comment_page.html:66
 msgid "in reply to "
-msgstr "en Respuesta a "
+msgstr "בתגובה ל־"
 
 #: templates/replies/comment_page.html:25
 msgid "Edit Comment"
-msgstr "ערוך תגובה"
+msgstr "עריכת תגובה"
 
 #: templates/replies/comment_page.html:27
 msgid "Reply Comment"
@@ -4263,7 +4258,7 @@ msgstr "תגובה חדשה"
 #: templates/replies/comment_page.html:103
 #: templates/signups/answer_sign_up.html:99
 msgid "Post"
-msgstr "Publicar"
+msgstr "פרסם"
 
 #: templates/replies/delete_restore_comment.html:16
 msgid "Restore Comment:"
@@ -4285,11 +4280,11 @@ msgstr "אתה בטוח שאתה רוצה למחוק את התגובה הזאת?
 #: templates/reviews/_projects_reviews_list_item.html:3
 #: templates/reviews/review_project.html:7
 msgid "Review"
-msgstr "Revisar"
+msgstr "סקירה"
 
 #: templates/reviews/_projects_reviews_list_item.html:5
 msgid "Feedback Comments:"
-msgstr "Comentarios:"
+msgstr "הערות משוב:"
 
 #: templates/reviews/projects_reviews_list.html:11
 msgid "New Courses"
@@ -4297,209 +4292,209 @@ msgstr "קורסים חדשים"
 
 #: templates/reviews/projects_reviews_list.html:12
 msgid "Reviewed"
-msgstr "Revisados"
+msgstr "נסקר"
 
 #: templates/reviews/review_project.html:13
 msgid "Feedback"
-msgstr "Comentarios"
+msgstr "משוב"
 
 #: templates/reviews/review_project.html:20
 msgid "Mark as Reviewed"
-msgstr "Marcar como Revisado."
+msgstr "סמן כנסקר"
 
 #: templates/reviews/review_project.html:28
 msgid "Feature as Community Pick"
-msgstr "Destacar como Selección de la Comunidad"
+msgstr "המלץ כבחירת הקהילה"
 
 #: templates/reviews/review_project.html:37
 msgid "Mark as Deleted (Spam)"
-msgstr "Marcar como Eliminado (Spam)."
+msgstr "סמן כנמחק (ספאם)"
 
 #: templates/reviews/show_project_reviews.html:16
 msgid "Review from"
-msgstr "Evaluación de"
+msgstr "סקירה מאת"
 
 #: templates/reviews/show_project_reviews.html:18
 msgid "Community Reviewed!"
-msgstr "¡Comentario eliminado!"
+msgstr "נסקר על ידי הקהילה!"
 
 #: templates/reviews/show_project_reviews.html:19
 msgid "Deleted (Spam)!"
-msgstr "¡Eliminado (Spam)!"
+msgstr "נמחק (ספאם)!"
 
 #: templates/reviews/show_project_reviews.html:20
 msgid "Featured as Community Pick!"
-msgstr "¡Destacado como Selección de la Comunidad!"
+msgstr "מומלץ כבחירת הקהילה!"
 
 #: templates/reviews/show_project_reviews.html:21
 msgid "Feedback:"
-msgstr "Comentarios:"
+msgstr "משוב:"
 
 #: templates/reviews/show_project_reviews.html:28
 msgid "Post New Review"
-msgstr "Publicar una Nueva Evaluación"
+msgstr "פרסם סקירה חדשה"
 
 #: templates/richtext/_external_link.html:2
 msgid "Work on this Task"
-msgstr "Trabajar en esta Tarea"
+msgstr "עבוד על משימה זו"
 
 #: templates/richtext/browse.html:9
 msgid "Select the file you want, then click 'Attach File' to continue..."
-msgstr ""
-"Seleccione el fichero que desee, y haga clic en 'Adjuntar Fichero' para "
-"continuar..."
+msgstr "בחר את הקובץ שאתה רוצה, ולחץ על 'צרף קובץ' כדי להמשיך..."
 
 #: templates/richtext/browse.html:14
 msgid "Files"
-msgstr "Ficheros"
+msgstr "קבצים"
 
 #: templates/richtext/browse.html:21
 msgid "Attach File"
-msgstr "Adjuntar Fichero"
+msgstr "צרף קובץ"
 
 #: templates/richtext/browse.html:25
 msgid ""
 "No files found. Upload files using the 'Link Button' dialog's 'Upload' tab."
-msgstr ""
-"No se encontro ningún fichero. Suba un fichero usando la pestaña 'Cargar' "
-"del dialogo 'Insertar Vínculo'."
+msgstr "לא נמצאו קבצים. העלו קבצים באמצעות תוית 'העלאה' בתיבת 'קישור'."
 
 #: templates/schools/_projectset_card.html:25
 msgid "View Challenges"
-msgstr "Ver Retos"
+msgstr "צפייה באתגרים"
 
 #: templates/schools/_projectset_card.html:31
 #: templates/schools/projectset_home.html:23
 #: templates/schools/projectset_home.html:37
 msgid "Challenges"
-msgstr "Retos"
+msgstr "אתגרים"
 
 #: templates/schools/_projectset_card.html:39
 #: templates/schools/projectset_home.html:25
 msgid "Adopters"
-msgstr "Adoptaron"
+msgstr "מאמצים"
 
 #: templates/schools/_projectset_card.html:53
 msgid "Get started with the first Challenge now"
-msgstr "Empiece con el primer Reto ahora"
+msgstr "התחילו עם האתגר הראשון עכשיו"
 
 #: templates/schools/_projectset_card.html:71
 msgid "View All Challenges"
-msgstr "Ver Todos los Retos"
+msgstr "צפייה בכל האתגרים"
 
 #: templates/schools/footer.html:4
 msgid "P2PU Schools:"
-msgstr "Escuelas en P2PU:"
+msgstr "בתי ספר של P2PU:"
 
 #: templates/schools/home.html:11 templates/schools/school_edit.html:4
 #: templates/schools/school_edit.html:11
 msgid "Edit School"
-msgstr "Editar Escuela"
+msgstr "עריכת בית ספר"
 
 #: templates/schools/home.html:16
 msgid "Browse"
-msgstr "Navegar"
+msgstr "דפדוף"
 
 #: templates/schools/home.html:35 templates/schools/school_edit.html:22
 #: templates/schools/school_edit_organizers.html:7
 msgid "School Organizers"
-msgstr "Organizadores de Escuela"
+msgstr "מארגני בית הספר"
 
 #: templates/schools/home.html:46
 msgid "Challenge Sets"
-msgstr "Conjuntos de Retos"
+msgstr "סדרות אתגרים"
 
 #: templates/schools/projectset_home.html:29
 msgid "Start first Challenge"
-msgstr "Iniciar primer Reto"
+msgstr "התחלת האתגר הראשון"
 
 #: templates/schools/school_edit.html:12
 msgid "View School"
-msgstr "Ver Escuela"
+msgstr "צפייה בבית ספר"
 
 #: templates/schools/school_edit.html:17
 msgid "Appearance"
-msgstr "Apariencia"
+msgstr "מראה"
 
 #: templates/schools/school_edit.html:18
 msgid "Logo"
-msgstr "Logo"
+msgstr "לוגו"
 
 #: templates/schools/school_edit.html:19
 msgid "Small Logo"
-msgstr "Logo Pequeño"
+msgstr "לוגו קטן"
 
 #: templates/schools/school_edit.html:20
 msgid "Background"
-msgstr "Fondo"
+msgstr "רקע"
 
 #: templates/schools/school_edit.html:21
 msgid "Site Logo"
-msgstr "Logo del Sitio"
+msgstr "לוגו האתר"
 
 #: templates/schools/school_edit.html:24
 #: templates/schools/school_edit_membership.html:7
 msgid "Membership"
-msgstr "Membresía"
+msgstr "חברות"
 
 #: templates/schools/school_edit.html:25
 #: templates/schools/school_edit_mentorship.html:7
 msgid "Mentorship"
-msgstr "Mentores"
+msgstr "חונכות"
 
 #: templates/schools/school_edit.html:26
 #: templates/schools/school_edit_statistics.html:7
 msgid "Statistics"
-msgstr "Estadísticas"
+msgstr "סטטיסטיקות"
 
 #: templates/schools/school_edit_background.html:12
 msgid "Replace School Background Image"
-msgstr "Remplazar Imagen de Fondo de la Escuela"
+msgstr "החלפת תמונת הרקע של הבית ספר"
 
 #: templates/schools/school_edit_background.html:14
 msgid "Upload a School Background Image"
-msgstr "Subir Imagen de Fondo de la Escuela"
+msgstr "העלאת תמונת רקע לבית ספר"
 
 #: templates/schools/school_edit_background.html:16
 #: templates/schools/school_edit_groups_icon.html:16
 #: templates/schools/school_edit_logo.html:16
 #: templates/schools/school_edit_site_logo.html:16
 msgid "Upload an image file from your computer:"
-msgstr "Subir una imagen de su computador:"
+msgstr "העלה קובץ תמונה מהמחשב שלך:"
 
 #: templates/schools/school_edit_background.html:19
 msgid ""
 "File Types: JPG, GIF or PNG only<br/> Max size: 700k <br/> Dimensions: 20x60 "
 "pixels"
 msgstr ""
-"Tipos de archivos: JPG, GIF o PNG unicamente<br/> Tamaño máximo: 700k <br/> "
-"Dimensiones: 20x60 pixels"
+"סוגי קבצים: JPG, GIF, או PNG בלבד<br/> גודל מקסימלי: 700kb <br/> ממדים: 20×60"
+"פיקסלים"
 
 #: templates/schools/school_edit_featured.html:9
-#, fuzzy
 msgid "View, add and remove courses featured by this school."
-msgstr "Ver, añadir y retirar grupos de estudio, cursos, ... de esta escuela."
+msgstr "צפה, הוסף, והסר קורסים שהומלצו על ידי בית הספר הזה."
 
 #: templates/schools/school_edit_groups_icon.html:12
 msgid "Replace School Small Logo"
-msgstr "Remplazar Logo Pequeño de la Escuela"
+msgstr "החלפת הלוגו הקטן של בית הספר"
 
 #: templates/schools/school_edit_groups_icon.html:14
 msgid "Upload a School Small Logo"
-msgstr "Subir un Logo Pequeño para la Escuela"
+msgstr "העלה לוגו קטן של בית הספר"
 
 #: templates/schools/school_edit_groups_icon.html:19
 msgid ""
 "File Types: JPG, GIF or PNG only<br/> Max size: 700k <br/> Dimensions: 41x50 "
 "pixels"
 msgstr ""
-"Tipos de Archivos: JPG, GIF o PNG unicamente<br/> Tamaño máximo: 700k <br/> "
-"Dimensiones: 41x50 pixels"
+"סוגי קבצים: JPG, GIF, או PNG בלבד<br/> גודל מקסימלי: 700kb <br/> ממדים: 41×50"
+"פיקסלים"
 
 #: templates/schools/school_edit_logo.html:12
 msgid "Replace School Logo"
-msgstr "Remplazar Logo de la Escuela"
+msgstr "החלפת לוגו בית הספר"
 
+# a#############################################################################
+# a#############################################################################
+# a## Bookmark                                                                ##
+# a#############################################################################
+# a#############################################################################
 #: templates/schools/school_edit_logo.html:14
 msgid "Upload a School Logo"
 msgstr "Subir un Logo de la Escuela"
