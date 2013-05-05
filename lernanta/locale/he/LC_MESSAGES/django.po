@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: LERNANTA 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-26 15:25+0200\n"
-"PO-Revision-Date: 2011-04-11 8:23-0500\n"
+"PO-Revision-Date: 2013-04-29 11:15+0300\n"
 "Last-Translator: Inkbug\n"
 "Language-Team: LANGUAGE <HE>\n"
 "Language: Hebrew\n"
@@ -101,12 +101,12 @@ msgstr "המשתמש %s צריך להיות עמית שלך."
 #: apps/badges/forms.py:66
 #, fuzzy, python-format
 msgid "User %s has not received all the prerequisite badges."
-msgstr "המשתמש %s לא קיבל את כל הbadgeים הנצרכים קודם."
+msgstr "המשתמש %s לא קיבל את כל ה־badges הנצרכים קודם."
 
 #: apps/badges/models.py:64
 #, fuzzy
 msgid "Regulates how the badge is awarded to users."
-msgstr "מסדיר איך הbadge מוענק למשתמשים."
+msgstr "־מסדיר איך הbadge מוענק למשתמשים."
 
 #: apps/badges/models.py:73 templates/badges/_submissions_list_item.html:11
 msgid "Badge"
@@ -123,7 +123,7 @@ msgstr "דירוג ממוצע מינימלי."
 #: apps/badges/models.py:268
 #, fuzzy
 msgid "If the badge can only be awarded to the user once."
-msgstr "אם אפשר להעניק את הbadge למשתמש רק פעם אחת."
+msgstr "־אם אפשר להעניק את הbadge למשתמש רק פעם אחת."
 
 #: apps/badges/models.py:274
 #, fuzzy
@@ -147,7 +147,7 @@ msgstr "הבקשה של %(author)s בשביל %(badge)s"
 
 #: apps/badges/models.py:325
 msgid "Allows to give more or less weight to the assessor's vote."
-msgstr ""
+msgstr "מאפשר לתת יותר או פחות משקל להצבעה של המעריך"
 
 #: apps/badges/models.py:336
 #, fuzzy
@@ -199,12 +199,12 @@ msgstr "ה%s נוצר."
 #: apps/badges/views.py:91
 #, fuzzy
 msgid "Problem creating the badge."
-msgstr "תקלה ביצירת הbadge."
+msgstr "־תקלה ביצירת הbadge."
 
 #: apps/badges/views.py:105
 #, fuzzy
 msgid "You can not apply for this badge."
-msgstr "אינך יכול לבקש את הbadge הזה."
+msgstr "אינך יכול לבקש את ה־badge הזה."
 
 #: apps/badges/views.py:119
 #, fuzzy
@@ -332,12 +332,11 @@ msgstr ""
 
 #: apps/courses/forms.py:47 templates/projects/sidebar.html:142
 msgid "Archived"
-msgstr "Archivado"
+msgstr "אורכב"
 
 #: apps/courses/forms.py:54
-#, fuzzy
 msgid "Open"
-msgstr "OpenID"
+msgstr ""
 
 #: apps/courses/forms.py:55
 #, fuzzy
@@ -352,22 +351,20 @@ msgstr "הרשמה סגורה"
 #: apps/courses/models.py:136 templates/_footer.html:78 templates/base.html:85
 #: templates/base.html.py:117 templates/courses/course_base.html:61
 #: templates/courses/course_sidebar.html:34
-#, fuzzy
 msgid "About"
-msgstr "Acerca de Mi"
+msgstr "אודות"
 
 #: apps/courses/models.py:541
 msgid "No such user in cohort"
 msgstr ""
 
 #: apps/courses/models.py:549
-#, fuzzy
 msgid "Cannot remove last organizer"
-msgstr "הסרת מארגן"
+msgstr "לא ניתן להסיר את המארגן האחרון"
 
 #: apps/courses/views.py:280
 msgid "Could not upload image"
-msgstr ""
+msgstr "לא ניתן היה להעלות את התמונה"
 
 #: apps/courses/views.py:292
 #, fuzzy
@@ -376,7 +373,7 @@ msgstr "כבר הצטרפת ל%s הזה."
 
 #: apps/courses/views.py:294
 msgid "This course isn't open for signup."
-msgstr ""
+msgstr "הקורס הזה אינו פתוח להרשמה."
 
 #: apps/courses/views.py:307
 #, fuzzy
@@ -390,7 +387,7 @@ msgstr "השלב הבא הוסף."
 
 #: apps/courses/views.py:315
 msgid "User does not exist."
-msgstr ""
+msgstr "המשתמש אינו קיים."
 
 #: apps/courses/views.py:328
 msgid "Could not remove user"
@@ -892,86 +889,74 @@ msgid "User %s is organizing the school."
 msgstr "המשתמש %s מארגן את הבית ספר."
 
 #: apps/schools/views.py:87
-#, fuzzy
 msgid "School updated!"
 msgstr "הבית ספר עודכן!"
 
 #: apps/schools/views.py:108
-#, fuzzy
 msgid "School styles updated!"
 msgstr "עיצוב הבית ספר עודכן!"
 
 #: apps/schools/views.py:299
-#, fuzzy
 msgid "School organizer added."
 msgstr "מארגן בית ספר נוסף!"
 
 #: apps/schools/views.py:304
-#, fuzzy
 msgid "There was an error adding the school organizer."
 msgstr "אירעה תקלה בהוספת מארגן הבית ספר."
 
 #: apps/schools/views.py:340
-#, fuzzy
 msgid "The course is now featured for this school."
-msgstr "ה%s מומלץ עכשיו בשביל בית הספר הזה."
+msgstr "הקורס מומלץ עכשיו בשביל בית הספר הזה."
 
 #: apps/schools/views.py:346
-#, fuzzy
 msgid "There was an error marking the course as featured."
-msgstr "אירעה תקלה בסימון %s כמומלץ."
+msgstr "אירעה תקלה בסימון הקורס כמומלץ."
 
 #: apps/schools/views.py:368
-#, fuzzy
 msgid "The course stopped being featured for this school."
-msgstr "ה%s הפסיק להיות מומלץ בשביל בית הספר הזה."
+msgstr "הקורס הפסיק להיות מומלץ בשביל בית הספר הזה."
 
 #: apps/schools/views.py:371
 msgid "Could not remove course from featured list"
-msgstr ""
+msgstr "לא ניתן היה להסיר את הקורס מרשימת המומלצים"
 
 #: apps/schools/views.py:388
-#, fuzzy
 msgid "The course was added to this school."
-msgstr "ה%s נוסף לבית ספר הזה."
+msgstr "הקורס נוסף לבית ספר הזה."
 
 #: apps/schools/views.py:395
-#, fuzzy, python-format
+#, python-format
 msgid "There was an error adding %s to this school."
-msgstr "אירעה שגיאה בהוספת %s לבית הספר הזה."
+msgstr "אירעה תקלה בהוספת %s לבית הספר הזה."
 
 #: apps/schools/views.py:415
-#, fuzzy
 msgid "The course is no longer part of this school."
-msgstr "ה%s כבר לא חלק מבית הספר הזה."
+msgstr "הקורס כבר לא חלק מבית הספר הזה."
 
 #: apps/schools/views.py:417
 msgid "Could not remove course from school"
-msgstr ""
+msgstr "לא ניתן היה להסיר את הקורס מבית הספר"
 
 #: apps/schools/views.py:487
 msgid "School mentorship details updated!"
 msgstr ""
 
 #: apps/signups/models.py:30
-#, fuzzy
 msgid "Closed signup"
 msgstr "הרשמה סגורה"
 
 #: apps/signups/models.py:31
-#, fuzzy
 msgid "Moderated signup"
 msgstr "הרשמה מונחית"
 
 #: apps/signups/models.py:32
-#, fuzzy
 msgid "Non-moderated signup"
-msgstr "הרשמה בלתי-מונחית"
+msgstr "הרשמה בלתי־מונחית"
 
 #: apps/signups/models.py:38
 #, fuzzy, python-format
 msgid "%s signup"
-msgstr "הרשמה סגורה"
+msgstr "הרשמה %s"
 
 #: apps/signups/models.py:107
 #, python-format
@@ -1308,14 +1293,13 @@ msgstr ""
 "P2PU? נסה "
 
 #: templates/404.html:9
-#, fuzzy
 msgid ""
 "If you think this is an error, please let us know by <a href=\"http://p2pu."
 "lighthouseapp.com/projects/71002\" target=\"_blank\">filling a bug report</"
 "a>."
 msgstr ""
 "אם אתה חושב שזוהי שגיאה, בבקשה הודיע לנו על ידי <a href=\"http://p2pu."
-"lighthouseapp.com/projects/71002\">דיווח על הבאג</a>."
+"lighthouseapp.com/projects/71002\" target=\"_blank\">דיווח על הבאג</a>."
 
 #: templates/500.html:6
 msgid "Internal server error"
@@ -1328,9 +1312,8 @@ msgid ""
 "problem by <a href=\"http://help.p2pu.org\">filing a bug report</a>, and "
 "telling us what you were doing when the problem occurred."
 msgstr ""
-"בבירור מה שהיה אמור לקרות לא קרה. אתה יכול לעזור לנו לפתור את הבעיה על ידי "
-"<a href=\"http://p2pu.lighthouseapp.com/projects/71002\">דיווח על הבאג</a>, "
-"וסיפור מה עשית כאשר התקלה אירעה."
+"בבירור מה שהיה אמור לקרות, לא קרה. ניתן לעזור לנו לפתור את הבעיה על ידי "
+"<a href=\"http://help.p2pu.org\">דיווח על הבאג</a>, וסיפור מה עשית כאשר התקלה אירעה."
 
 #: templates/503.html:5
 msgid "Down for maintenance, come back soon"
@@ -1363,17 +1346,16 @@ msgstr ""
 "הלימוד הזמינים בחינם בו, P2PU מאפשר הזדמנויות לימוד באיכות גבוהה ועלות נמוכה."
 
 #: templates/_footer.html:20
-#, fuzzy
 msgid "Connect With Us"
 msgstr "התחבר איתנו"
 
 #: templates/_footer.html:23
 msgid "Facebook"
-msgstr ""
+msgstr "פייסבוק"
 
 #: templates/_footer.html:25
 msgid "Twitter"
-msgstr ""
+msgstr "טוויטר"
 
 #: templates/_footer.html:27 templates/pages/get_involved_page.html:7
 msgid "Get Involved"
@@ -1389,9 +1371,8 @@ msgid "Send us an email"
 msgstr "שלח לנו דוא\"ל"
 
 #: templates/_footer.html:35
-#, fuzzy
 msgid "Some of Our Supporters"
-msgstr "כמה מתומכינו"
+msgstr "חלק מתומכינו"
 
 #: templates/_footer.html:38
 msgid "View all of our supporters"
@@ -1420,11 +1401,11 @@ msgstr "מצאת באג?"
 #: templates/_footer.html:84
 #, fuzzy
 msgid "Creative Commons"
-msgstr "Creative Commons שיתוף זהה"
+msgstr "Creative Commons"
 
 #: templates/_footer.html:85
 msgid "Share-Alike"
-msgstr ""
+msgstr "שיתוף זהה"
 
 #: templates/_footer.html:86
 msgid "Privacy Guidelines"
@@ -1440,7 +1421,7 @@ msgstr "לימוד לכולם, מאת כולם, אודות כמעט הכול."
 
 #: templates/base.html:65
 msgid "Find"
-msgstr ""
+msgstr "מצא"
 
 #: templates/base.html:66
 #, fuzzy
@@ -1780,7 +1761,6 @@ msgstr "בבקשה השקיע כמה דקות ועזור לעמית שלך."
 
 #: templates/badges/_submissions_list.html:10
 #: templates/projects/_tasks_completed_msg.html:17
-#, fuzzy
 msgid "Awaiting Review"
 msgstr "מחכים להערכה"
 
@@ -2514,7 +2494,7 @@ msgstr ""
 #: templates/users/_openid_providers.html:19
 #: templates/users/register_openid.html:9 templates/users/signin.html:10
 msgid "or"
-msgstr "o"
+msgstr "או"
 
 #: templates/courses/course_settings.html:93
 msgid "Switch to rolling term"
@@ -2522,7 +2502,7 @@ msgstr ""
 
 #: templates/courses/course_settings.html:102
 msgid "Singup is open to anyone."
-msgstr ""
+msgstr "ההרשמה פתוחה לכולם."
 
 #: templates/courses/course_settings.html:105
 msgid ""
@@ -2532,17 +2512,15 @@ msgstr ""
 
 #: templates/courses/course_settings.html:108
 msgid "Singup is closed. Only organizers can add more people."
-msgstr ""
+msgstr "ההרשמה סגורה. רק מארגנים יכולים להוסיף אנשים נוספים."
 
 #: templates/courses/course_settings.html:133
-#, fuzzy
 msgid "Course languge"
-msgstr "קורס"
+msgstr "שפת הקורס"
 
 #: templates/courses/course_settings.html:135
-#, fuzzy
 msgid "Update language"
-msgstr "שפה"
+msgstr "עדכן שפה"
 
 #: templates/courses/course_settings.html:141
 msgid "Meta data"
@@ -2555,9 +2533,8 @@ msgid ""
 msgstr ""
 
 #: templates/courses/course_settings.html:147
-#, fuzzy
 msgid "About (subject)"
-msgstr "Acerca de Mi"
+msgstr ""
 
 #: templates/courses/course_settings.html:151
 msgid ""
@@ -2570,9 +2547,8 @@ msgid "Typical Age Range"
 msgstr ""
 
 #: templates/courses/course_settings.html:159
-#, fuzzy
 msgid "Is Based on URL"
-msgstr "Basado en"
+msgstr ""
 
 #: templates/courses/course_settings.html:163
 msgid "Educational Role (target audience)"
@@ -2595,14 +2571,12 @@ msgid "Save metadata"
 msgstr ""
 
 #: templates/courses/course_sidebar.html:20
-#, fuzzy
 msgid "Featured in:"
-msgstr "מומלץ"
+msgstr "מומלץ ב:"
 
 #: templates/courses/course_sidebar.html:31
-#, fuzzy
 msgid "Navigation"
-msgstr "ניווט משימות"
+msgstr "ניווט"
 
 #: templates/courses/course_sidebar.html:55
 #, python-format
@@ -2624,9 +2598,8 @@ msgid "Leave Course"
 msgstr "יצירת קורס"
 
 #: templates/courses/course_user_snip.html:12
-#, fuzzy
 msgid "Remove user"
-msgstr "הסרה"
+msgstr "הסרת משתמש"
 
 #: templates/courses/course_user_snip.html:17
 #, fuzzy
@@ -2634,9 +2607,8 @@ msgid "Make organizer"
 msgstr "הסרת מארגן"
 
 #: templates/courses/create_course.html:16
-#, fuzzy
 msgid "Create a new course"
-msgstr "צור חשבון חדש"
+msgstr "צור קורס חדש"
 
 #: templates/courses/create_course.html:25
 msgid ""
@@ -2682,9 +2654,8 @@ msgid "A short handle for the course, ex. 'ccsavvy'"
 msgstr ""
 
 #: templates/courses/create_course.html:53
-#, fuzzy
 msgid "Description:"
-msgstr "תיאור"
+msgstr "תיאור:"
 
 #: templates/courses/create_course.html:53
 #, fuzzy
@@ -5434,24 +5405,18 @@ msgstr "Un participante publique o responda un mensaje en el muro de:"
 #: templates/users/settings_notifications.html:47
 msgid ""
 "An organizer creates, edits, or posts new comments on a task or page of:"
-msgstr ""
-"Un organizador cree, edite o publique nuevos comentarios en una tarea o "
-"página de:"
+msgstr "מארגן יוצר, עורך, או מפרסם תגובות חדשות על משימה או דף של:"
 
 #: templates/users/settings_notifications.html:54
 msgid ""
 "A participant creates, edits, or posts new comments on a task or page of:"
-msgstr ""
-"Un participante cree, edite o publique nuevos comentarios en una tarea o "
-"página de:"
+msgstr "משתתף יוצר, עורך, או מפרסם תגובות חדשות על משימה או דף של:"
 
 #: templates/users/settings_notifications.html:63
 msgid ""
 "Does not include important updates for which notifications can not be turned "
 "off."
-msgstr ""
-"No incluye actualizaciones importantes para las cuales las notificaciones no "
-"pueden desactivarse."
+msgstr "אינו כולל עדכונים חשובים אשר בשבילם לא ניתן לכבות את ההודעות."
 
 #: templates/users/sidebar.html:23
 msgid "Lives in"
@@ -5472,7 +5437,7 @@ msgstr "או השתמש ב"
 #: templates/users/user_list.html:15
 #, fuzzy
 msgid "Browse "
-msgstr "Navegar"
+msgstr "Browse "
 
 #: templates/users/user_list.html:20
 msgid "in"
@@ -5654,96 +5619,14 @@ msgstr "אנשים חדשים"
 #~ msgid "Language:"
 #~ msgstr "שפה:"
 
-#~ msgid "[P2PU] New "
-#~ msgstr "Nuevo [P2PU] "
-
-#~ msgid "You received this message through the Contact Organizer form at "
-#~ msgstr "Usted recibió este mensaje porque es un organizador en "
-
-#~ msgid "Looking forward to learning from you!"
-#~ msgstr "¡Esperamos poder aprender con y de usted!"
-
-#~ msgid "is now following "
-#~ msgstr "ahora está siguiendo "
-
-#~ msgid "you"
-#~ msgstr "su actividad"
-
-#~ msgid "on P2PU!"
-#~ msgstr "en P2PU!"
-
-#~ msgid "You can see their profile here:"
-#~ msgstr "Puede ver su perfil aquí:"
-
-#~ msgid "is following "
-#~ msgstr "ahora está siguiendo "
-
 #~ msgid " posted a new comment at "
 #~ msgstr " פירסם תגובה חדשה אצל "
 
 #~ msgid "See comment at:"
 #~ msgstr "ראה תגובה ב:"
 
-#~ msgid ""
-#~ "View, add and remove featured study groups, courses, ... to this school."
-#~ msgstr ""
-#~ "Ver, añadir y retirar grupos de estudio, cursos, ... asociados a esta "
-#~ "escuela."
-
-#~ msgid " submitted a new answer at the sign-up page of "
-#~ msgstr " envió una nueva respuesta a la página de inscripción de "
-
-#~ msgid "See answer at:"
-#~ msgstr "Ver respuesta en:"
-
-#~ msgid " submitted a new answer at the sign-up page."
-#~ msgstr " envió una nueva respuesta a la página de inscripción."
-
-#~ msgid " posted an important message to the wall:"
-#~ msgstr " publicó un mensaje importante para este grupo de estudio:"
-
-#~ msgid " posted a message to the wall:"
-#~ msgstr " publicó un mensaje para este grupo de estudio:"
-
-#~ msgid "See message at:"
-#~ msgstr "Ver mensaje en:"
-
-#~ msgid ""
-#~ "This message was marked as important by an organizer. Participants can "
-#~ "not turn off notifications for important updates."
-#~ msgstr ""
-#~ "Este mensaje fue marcado como importante por un organizador. Los "
-#~ "participantes no pueden desactivar notificaciones de actualizaciones "
-#~ "importantes."
-
-#~ msgid " posted a message to the wall."
-#~ msgstr " publicó un mensaje en el muro."
-
-#~ msgid ""
-#~ "You can login directly with your username and password from the old P2PU "
-#~ "website."
-#~ msgstr ""
-#~ "Puede entrar directamente con su nombre de usuario y contraseña del "
-#~ "antiguo sitio web de P2PU."
-
 #~ msgid "Browse <b>People</b>"
 #~ msgstr "מצא <b>אנשים</b>"
-
-#~ msgid "A request was received to reset the password for this account on "
-#~ msgstr ""
-#~ "Se ha recibido una solicitud para restablecer la contraseña de esta "
-#~ "cuenta en "
-
-#~ msgid ""
-#~ "To change this password please click on the following link, or paste it "
-#~ "into your browser's location bar:"
-#~ msgstr ""
-#~ "Para cambiar esta contraseña, siga el siguiente enlace o copie la url en "
-#~ "la barra de direcciones de su navegador:"
-
-#~ msgid ""
-#~ "If you did not request this email there is no need for further action."
-#~ msgstr "Si no solicitó este mensaje, no tiene que realizar acción alguna."
 
 #~ msgid "Please confirm your email address by clicking here:"
 #~ msgstr "בבקשה וודא את כתובת הדואר אלקטרוני שלך על ידי לחיצה כאן:"
@@ -5756,12 +5639,3 @@ msgstr "אנשים חדשים"
 
 #~ msgid "[P2PU] Confirm Email Address!"
 #~ msgstr "[P2PU] וודא את כתובת הדואר אלקטרוני!"
-
-#~ msgid "Problem creating the study group, course, ..."
-#~ msgstr "Problema creando el grupo de estudio, curso, ..."
-
-#~ msgid "Create from Scratch"
-#~ msgstr "Crear desde Cero"
-
-#~ msgid "Create Challenge"
-#~ msgstr "Crear un Reto"
